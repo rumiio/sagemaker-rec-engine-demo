@@ -20,6 +20,7 @@
             - 「ロールの作成」ボタンをクリックします。
     - VPC なし
 	- Git リポジトリにて、「このノートブックインスタンスのみにパブリック Git リポジトリのクローンを作成する」を選択し、リポジトリの URL を https://github.com/rumiio/sagemaker-rec-engine-demo.git と指定して下さい。
+    - 再び、「このノートブックインスタンスのみにパブリック Git リポジトリのクローンを作成する」を選択し、リポジトリの URL を https://github.com/skrinak/personalize-amzn-rec.git と指定して下さい。
     - ライフサイクル設定なし
     - カスタム暗号化なし
 
