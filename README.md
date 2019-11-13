@@ -22,7 +22,9 @@ https://github.com/rumiio/sagemaker-rec-engine-demo
 
     It will bring up the Jupyter environment. Click on the **fm_amazon_recommender.ipynb** to get started on your lab. 
  
- 
+ 1. Once you are on the **fm_amazon_recommender.ipynb**, follow instructions there. 
+
+
  ### Contents of the notebook.
 - Background (Factorization Machines)
 - Setup
