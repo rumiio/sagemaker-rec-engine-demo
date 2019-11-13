@@ -1,15 +1,29 @@
 
 
-# sagemaker-rec-demo
-
-**Building a Recommender System with Amazon SageMaker Factorization Machines and BlazingText**
-
+# Building a Recommender System with Amazon SageMaker Factorization Machines and BlazingText
 
 ## Contents
 
-Notebook: `fm_amazon_recommender.ipynb`
+We will be using the `fm_amazon_recommender.ipynb` notebook. 
 
-### Main Workshop:
+## Workshop Instructions
+
+1. Go to SageMaker console. Create a new SageMaker notebook instance with the following configuration: 
+   - Enter a name without undercore. You can use hyphen but not underscore between words.
+   - Choose instance type such as **ml.m4.4xlarge**.
+   - Create a new SageMaker IAM role with access to **any S3 bucket**
+   - No VPC, etc. needed
+   - **Git repository** section
+      - From the dropdown list, choose “Clone a public Git repository to this notebook instance only” option. 
+      - Insert the following link in **Git repository URL** 
+https://github.com/rumiio/sagemaker-rec-engine-demo 
+
+1. It would take a couple of minutes for the notebook instance to be ready. Once the status changes from *pending* to *InService*, click on the **Open Jupyter** link.
+
+    It will bring up the Jupyter environment. Click on the **fm_amazon_recommender.ipynb** to get started on your lab. 
+ 
+ 
+ ### Contents of the notebook.
 - Background (Factorization Machines)
 - Setup
 	- Spin up SageMaker hosted notebook instance in console
@@ -36,6 +50,7 @@ Notebook: `fm_amazon_recommender.ipynb`
 - Host
 
 
+Following is instructions written in Japanese.
 # Amazon SageMaker の Factorization Machines を使用したレコメンダ システムの構築
 
 ## Contents
