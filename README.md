@@ -20,7 +20,7 @@ https://github.com/rumiio/sagemaker-rec-engine-demo
 
 1. It would take a couple of minutes for the notebook instance to be ready. Once the status changes from *pending* to *InService*, click on the **Open Jupyter** link.
 
-    It will bring up the Jupyter environment. Click on the **fm_amazon_recommender.ipynb** to get started on your lab. 
+    It will bring up the Jupyter environment. Click on the **fm_amazon_recommender.ipynb** to get started on your lab. Make sure **conda_python3** is chosen for the kernal. 
  
  1. Once you are on the **fm_amazon_recommender.ipynb**, follow instructions there. 
 
